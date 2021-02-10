@@ -119,8 +119,10 @@ $ python3 test.py --data dataset.yaml --weights pretrain_weights.pt --task test
 $ python3 train.py --data dataset.yaml --weights pretrain_weights.pt --hyp hyp_evolved.yaml --epochs 300 --batch 32
 ```
 
-
-
+## Labeling Tool
+- [Labelme](https://github.com/wkentaro/labelme) 프로그램을 본사업에 사용하기 위하여 커스터마이징 함
+- [Labelme_customizing 다운로드](https://drive.google.com/file/d/1IIK7XdRfxCOs5pFpissJ8t3vH3LD9PmF/view?usp=sharing)
+- 위 링크를 통해 labelme_customizing_v3.3.zip 파일을 다운받고 압축을 해제한 뒤, __main__.exe 파일 실행시 라벨링 툴 작동
 
 -----
 -----
